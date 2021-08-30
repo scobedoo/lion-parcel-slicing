@@ -1,0 +1,283 @@
+* {
+    @extend %font-normal;
+}
+.background-nav-1 {
+	@extend %background1;
+}
+.btn-masuk {
+    @extend %btn-masuk;
+    @extend %btn-header;
+}
+.btn-daftar {
+    @extend %btn-daftar;
+    @extend %btn-header;
+}
+
+.body-1 {
+    margin-top: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+}
+.g-kapal {
+    margin: 0 auto;
+    
+}
+.btn-lainnya {
+    @extend %btn-masuk;
+    cursor: pointer;
+    width: 100px;
+    height: 33px;
+    box-shadow: 0px 10px 33.3px 1.8px rgba(255, 0, 0, 0.05);
+    font-family: Roboto-Bold;
+    letter-spacing: 1.2px;
+}
+@media screen and (max-width: 768px) {
+    .gambar-judul {
+        display: none;
+    }
+    .text-judul {
+        text-align: center;
+    }
+    #h1 {
+        font-size: 40px;
+        
+    }
+    #h2 {
+        font-size: 25px;
+    }
+    #btn-lainnya {
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+    }
+    .body-2 {
+        max-width: 690px;
+    }
+    #ks2 {
+        display: none;
+    }
+    .btn-pnh {
+        margin-left: 550px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #body-1 {
+        margin-top: 20px;
+        margin-left: -50px;
+        margin-right: -50px;
+        padding-bottom: 100px;
+    }
+    .text-judul {
+        text-align: left;
+    }
+    #h1 {
+        font-size: 18px;
+    }
+    #h2 {
+        font-size: 14px;
+    }
+    #btn-lainnya {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+    #body-2 {
+        margin-top: -50px;
+    }
+    #text-22 {
+        padding-top: 30px;
+    }
+    .logo {
+        
+    }
+    #text-33 {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .kotak-strip-2 {
+        margin: 0 auto;
+    }
+}
+
+.text-judul {
+    
+    .text_introduction {
+
+        strong {
+            p {
+                @extend %text-atas;
+            }
+        }
+        p {
+            @extend %text-deskripsi;
+        }
+    }
+}
+.text-22 {
+    padding-top: 57px;
+    h6 {
+        @extend %text-judul-2;
+    }
+    p {
+        @extend %des-judul-2;
+    }
+}
+.logo {
+    @extend %icon;
+}
+.logo-descripsion {
+    @extend %lodes;
+}
+.body-2 {
+    @extend %body2;
+    background-color: white;
+}
+.kotak-strip {
+    @extend %box-strip;
+}
+.descripsion-logo {
+    @extend %des-log;
+}
+.background-2 {
+    @extend %bg-2;
+}
+.text-33 {
+    margin-top: 50px;
+    width: 100px;
+    
+    h6 {
+        font-family: Roboto-Medium;
+        letter-spacing: 1.2px;
+        color: #565e75;
+    }
+    p {
+        font-family: Roboto-Light;
+        color: #abb5cd;
+        font-size: 18px; 
+    }
+}
+.body-3 {
+    width: 100%;
+    margin-top: 120px;
+}
+.kotak-saran {
+    background-color: white;
+    box-shadow: 0px 15px 47.5px 2.5px rgba(0, 0, 0, 0.1);
+    margin: 0px 10px;
+    padding: 0px
+}
+.bungkus-saran {
+    padding-top: 120px;
+    clear: both;
+}
+.kolom {
+    
+    padding-bottom: 30px;
+    margin-top: 30px;
+    
+}
+.kutip2 {
+    margin-bottom: 10px;
+}
+.text-kosan {
+    width: 200px;
+    margin: 0 auto;
+    font-family: ProximaNovaSoft;
+    font-size: 12px;
+    line-height: 1.48;
+    letter-spacing: 1.45px;
+    text-align: center;
+    color: #828795;
+}
+.garis-abu {
+    width: 70%;
+    height: 1px;
+    background-color: grey;
+    margin: 0 auto;
+}
+.des-rating {
+    width: 300px;
+    ul {
+        padding: 10px;
+        li {
+            display: inline-block;
+            
+        }
+    }
+}
+.avatar {
+    width: 35px;
+    margin-right: 10px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    
+}
+.nama-avatar {
+    .na-p-1 {
+        font-family: Roboto-Light;
+        font-size: 13px;
+        text-align: left;
+        font-weight: bold;
+        color: #565e75;
+        padding-top: 30px;
+        
+    }
+    .na-p-2 {
+        font-family: Roboto;
+        font-size: 10px;
+        text-align: left;
+        color: #abb5cd;
+        margin-top: -15px;
+    }
+    
+    
+}
+.bintang {
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.btn-pnh {
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 100%;
+}
+.btn-pnh-1 {
+    box-shadow: 1px black;
+    width: 30px;
+    font-family: Roboto-Medium;
+    background-color: #ff0000;
+    border-radius: 100%;
+    border: 2px solid white;
+    color: white;
+    margin-right: 20px;
+}
+.kotak-strip-2 {
+    width: 50px;
+    border-radius: 20%;
+    height: 4px;
+    background-color: #ff0000;
+}
+.bg-b-4 {
+    background-image: url(img/bg-daftar-agen.png);
+    
+    height: 858px;
+    margin-left: 0px;
+}
+.j-daerah {
+    font-family: Roboto-Medium;
+    color: #565e75;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    line-height: 24px;
+}
+.d-daerah {
+    font-family: Roboto-Light;
+    color: #abb5cd;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+.g-daerah {
+    margin-bottom: 50px;
+}

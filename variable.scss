@@ -1,0 +1,103 @@
+$putih : #ffffff;
+$merah : #ff0000;
+$font-gede : 25px;
+$font-deskripsi : 16px;
+
+%font-normal {
+    font-family: Roboto;
+}
+%background1 {
+	background-image: url("img/bg-header.png");
+	background-size: cover;
+    
+}
+%btn-header {
+    margin: 20px;
+    width: 100px;
+    height: 33px;
+    box-shadow: 0px 10px 33.3px 1.8px rgba(255, 0, 0, 0.05);
+    font-family: Roboto-Bold;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+%btn-masuk {
+    background-color: $putih;
+    font-size: 12px;
+    color: $merah;
+    border: none;
+  
+}
+%btn-daftar {
+    background-color: transparent;
+    font-size: 12px;
+    color: $putih;
+    border: solid 2px $putih;
+}
+%text-atas {
+    font-size: $font-gede;
+}
+
+%text-deskripsi {
+    font-size: $font-deskripsi; 
+    font-family: ProximaNovaSoft;
+}
+%text-judul-2 {
+    
+    text-align: center;
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    color: #565e75;
+}
+%des-judul-2 {
+    font-family: Roboto-Light;
+    letter-spacing: 1.2px;
+    text-align: center;
+    font-size: 14px;
+    color: #abb5cd;
+}
+%icon {
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+%body2 {
+    margin-top: -100px;
+    width: 100%;
+    box-shadow: 0px 15px 42.8px 2.3px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    text-align: center;
+    clear: both;
+}
+%lodes {
+    text-align: center;
+    margin: 0 auto;
+    color: #000f3a;
+    font-family: ProximaNovaSoft;
+    font-weight: bold;
+}
+
+%des-log {
+    width: 90%;
+    color: #abb5cd;
+    text-align: center;
+    font-family: ProximaNovaSoft;
+    font-size: 14px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+%box-strip {
+    width: 50px;
+    border-radius: 20%;  
+    height: 4px;
+    background-color: #ff0000;
+    margin: 0 auto;
+}
+%bg-2 {
+    background-image: url("img/bg-testi.jpg");
+    background-size: cover;
+    height: 485px;
+    margin-top: 68px;
+}
+
